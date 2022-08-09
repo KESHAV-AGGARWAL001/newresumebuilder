@@ -124,12 +124,11 @@
 
         <!-- this is the changed section for our resume -->
         <div class="col-4 column4">
-          <img
-            src="download.jpg"
-            alt="personal photo"
-            class="photochanging photoji"
-            id="display_image"
-          />
+          <div class="profile-pic-div mt-2 mb-2 ">
+            <img src="image.jpg" id="photo">
+            <input type="file" id="file">
+            <label for="file" id="uploadBtn">Choose Photo</label>
+          </div>
           <div class="input-group mb-3">
             <span class="input-group-text" id="basic-addon1">@</span>
             <input
@@ -224,5 +223,6 @@
         Print Resume
       </button>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
